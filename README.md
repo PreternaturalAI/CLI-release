@@ -1,6 +1,6 @@
 # Preternatural CLI
 
-`preternatural` is a command line tool to help building and updating Xcode Projects, Workspaces and Swift packages.
+`preternatural` is a command line tool to help building and updating Xcode Projects, Workspaces and Swift packages. You can find the latest CLI executable binary asset under [releases](https://github.com/PreternaturalAI/CLI-release/releases/latest) with the filename `preternatural.artifactbundle.zip`.
 
 ## Installation
 
