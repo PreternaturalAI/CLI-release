@@ -6,11 +6,11 @@
 
 ### via Homebrew (Recommended)
 
-1. Install Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-2. Add tap: `brew tap PreternaturalAI/preternatural`
-3. Install CLI: `brew install preternatural`
+1. `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` **(skip if Homebrew is already installed**).
+2. `brew tap PreternaturalAI/preternatural`
+3. `brew install preternatural`
 
-### via Mint
+### via Mint (Outdated)
 
 1. Install Mint: `brew install mint`
 2. Add Mint to path: `echo 'export PATH="$HOME/.mint/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc`
