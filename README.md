@@ -4,19 +4,19 @@
 
 ## Installation
 
-### `brew` (Recommended)
+### via Homebrew (Recommended)
 
-1. Install brew if not already installed using the `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` command.
-2. Add the `PreternaturalAI/preternatural` tap using the `brew tap PreternaturalAI/preternatural` command.
-3. Install the `preternatural` cli using the `brew install preternatural` command.
+1. Install Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+2. Add tap: `brew tap PreternaturalAI/preternatural`
+3. Install CLI: `brew install preternatural`
 
-### `mint`
+### via Mint
 
-1. Install mint if not already installed using the `brew install mint` command.
-2. Add Mint to your path by running `echo 'export PATH="$HOME/.mint/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc` (and restart your Terminal app) so that tools installed via Mint will be available without having to do mint run (i.e. mint run foo can now just be foo)
-3. Install preternatural binary via mint: `mint install PreternaturalAI/CLI-release preternatural`
+1. Install Mint: `brew install mint`
+2. Add Mint to path: `echo 'export PATH="$HOME/.mint/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc`
+3. Install CLI: `mint install PreternaturalAI/CLI-release preternatural`
 
-You can now use the `preternatural` command from your command line. See all the available options using `preternatural --help`.
+Use `preternatural --help` to see available options.
 
 ## Commands
 
