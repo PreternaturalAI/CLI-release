@@ -76,11 +76,13 @@ Options:
 - `--verbose`: Enable verbose logging
 - `--isolated`: Prioritises building standalone Xcode projects instead of the referenced projects in an Xcode Workspace
 - `--update-developer-team`: Autoconfigure the developer team for Xcode projects. Warning - this option updates the Xcode project with a new developer team
-- `--attempt-automatic-fixes`: If build fails for a project or workspace, attempts to fix the build by updating code signing and dependecies. This does not update the original Xcode project or workspace, it makes a temporary copy and tries updating and building the temporary copy
+- `--attempt-automatic-fixes`: If build fails for a project or workspace, attempts to fix the build by updating code signing and dependencies. This does not update the original Xcode project or workspace, it makes a temporary copy and tries updating and building the temporary copy
+- `--architectures <architectures>`: Comma-separated list of architectures to build for (e.g., 'arm64,x86_64')
+- `--configuration <configuration>`: Build configuration (debug or release). Default is debug
 
 Example:
 ```
-preternatural build --build-all-platforms --update-developer-team
+preternatural build --build-all-platforms --update-developer-team --architectures arm64,x86_64 --configuration release
 ```
 
 ### Clone
@@ -204,10 +206,12 @@ Options:
 - `--build-all-platforms`: Builds for all supported platforms
 - `--isolated`: Prioritises building standalone Xcode projects instead of the referenced projects in an Xcode Workspace
 - `--update-developer-team`: Autoconfigure the developer team for Xcode projects. Warning - this option updates the Xcode project with a new developer team
+- `--architectures <architectures>`: Comma-separated list of architectures to build for (e.g., 'arm64,x86_64')
+- `--configuration <configuration>`: Build configuration (debug or release). Default is debug
 
 Example:
 ```
-preternatural update --verify --build-all-platforms
+preternatural update --verify --build-all-platforms --architectures arm64,x86_64 --configuration release
 ```
 
 ## Additional Information
